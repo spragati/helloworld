@@ -1,0 +1,45 @@
+<h1 id="title">Tesla Model Purchase</h1>
+<p id="description">
+  Plz fill the below details</p>
+<form id="survey-form">
+  <label for="name" id="name-label">
+    Name</label>
+  <input type=text id="name"  placeholder="Enter the name" required/>
+  <br/><br>
+ <label for="email" id="email-label">
+   Email:</label> 
+  <input type="email" id="email" placeholder="Enter the Email" required />
+  <br><br/>
+  <label for="number" id="number-label"> 
+    Age:</label><input type="number" id="number" placeholder="Enter the Age" min="18" max="100"  required/> <br><br/>
+  
+  <label for="dropdown" id="model">Select Model</label>
+  <select id="dropdown">
+    <option value="model_s">Model S</option>
+    <option value="model_r">Model R</option>
+    <option value="model_p">Model P</option>
+    <option value="model_f">Model F</option>
+    <option value="model_g">Model G</option>
+  </select>
+    <br><br>
+  <br><hr>
+  
+  <label for="model_color" id="model_color"><b> Model Color</b></label>
+  Black<input type="radio" name="color" value="black"/>
+   White<input type="radio" name="color" value="white"/>
+  Red<input type="radio" name="color" value="red"/>
+  <hr>
+  <label for="model_color" id="model_color"><b> Model shape</b></label>
+  Circle<input type="checkbox" name="shape" value="circle"/>
+   Triange<input type="checkbox" name="shape" value="triangle"/>
+  Square<input type="checkbox" name="shape" value="square"/>
+  <hr>
+  
+  
+  <label id="textarea">Additional Comments </label>
+  <textarea id ="textarea" name="instructions" rows="5" cols="5"></textarea>
+  <hr>
+ 
+  <input type="submit" id="submit" value="submit"/><br>
+  
+</form>
